@@ -11,7 +11,7 @@ pipeline{
        }
        stage('Execute'){
            steps{
-               sh 'java -jar target/java-project2-1.4.jar'
+               sh 'java -jar target/java-project2-1.3.jar'
  	   }
        }
    }
